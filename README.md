@@ -40,3 +40,11 @@ host:devices10010.getmysa.com
 GET /api/v1/device-end-point/settings/MAC/
 POST /api/v1/device-end-point/firmware/MAC/
 POST /api/v1/device-end-point/settings/MAC/
+
+
+
+curl --location --request GET 'https://devices10010.getmysa.com/api/v1/device-end-point/settings/MAC' \
+--header 'X-Amz-Date: 20220830T142706Z' \
+--header 'Authorization: AWS4-HMAC-SHA256 Credential=AKIAIT4FPAAQFBE3TUYA/20220830/us-east-1/execute-api/aws4_request, SignedHeaders=host;x-amz-date, Signature=2ae5bc8bac8d0c0277db4ef7b8df3b10f8186dchh6fab42bebfe8ac25c2430e0' \
+--header 'X_AMZ_DATE: 20220830T142706Z'
+
