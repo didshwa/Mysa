@@ -4,8 +4,9 @@
 
 ## Features or Example
 
-+ http://locations.getmysa.com/locations_v2.json 
-      {
++ http://locations.getmysa.com/locations_v2.json ,
+
+	{
         "mqtt": {
           "host": "a3q27gia9qg3zy.iot.us-east-1.amazonaws.com",
           "port": 8883
